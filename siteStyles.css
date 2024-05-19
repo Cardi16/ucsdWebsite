@@ -1,0 +1,63 @@
+p, li, ul {
+    color: black;
+    font-size: 24px;
+    font-family: "Comic Sans MS", Arial, sans-serif;
+}
+
+/* overarching title class */
+.Title {
+    color: inherit;
+    font-weight: bold;
+    font-size: 48px;
+    text-decoration: underline;
+    text-align: center;
+    width: 100%;
+}
+
+.Title p {
+    color: inherit;
+    font-weight: bold;
+    font-size: 48px;
+    text-decoration: underline;
+    text-align: center;
+    width: 100%;
+}
+
+/* paragraph highlighter thing */
+
+
+/* link class */
+.Link {
+    color: var(--linkColor);
+}
+
+/* reg text class */
+.regText {
+    font-family: inherit;
+    border: 50px solid transparent;
+}
+
+/* container class */
+.link-container{
+    text-align: center;
+}
+.link-container a {
+    display: inline-block;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 10px;
+    background-color: var(containerColor);
+}
+/* footer */
+.footer-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-family: inherit;
+    font-size: 24px;
+    background-color: var(containerColor); /* Example background color */
+    padding: 10px; /* Adjust padding as needed */
+    text-align: center; /* Center align the text */
+}

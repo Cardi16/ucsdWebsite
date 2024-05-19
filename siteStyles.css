@@ -24,7 +24,13 @@ p, li, ul {
 }
 
 /* paragraph highlighter thing */
-
+.minorTitle{
+    font-style: italic;
+    color: inherit;
+    text-decoration: underline;
+    font-size: 30px;
+    width: 100%;
+}
 
 /* link class */
 .Link {
@@ -51,7 +57,7 @@ p, li, ul {
 }
 /* footer */
 .footer-container {
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     left: 0;
     width: 100%;
@@ -60,4 +66,13 @@ p, li, ul {
     background-color: var(containerColor); /* Example background color */
     padding: 10px; /* Adjust padding as needed */
     text-align: center; /* Center align the text */
+}
+/* image container */
+.image-container {
+    width: 40%; /* Set the width of the container */
+}
+
+.image-container img {
+    width: 100%; /* Set the width of the image to fill the container */
+    height: auto; /* Maintain the aspect ratio */
 }

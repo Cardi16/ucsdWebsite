@@ -1,7 +1,7 @@
 p, li, ul {
     color: black;
     font-size: 24px;
-    font-family: "Comic Sans MS", Arial, sans-serif;
+    font-family: "Comic Sans MS", "Helvetica Rounded", Arial, sans-serif;
 }
 
 /* overarching title class */
@@ -21,6 +21,15 @@ p, li, ul {
     text-decoration: underline;
     text-align: center;
     width: 100%;
+}
+
+/* centered fully */
+.centered-text {
+    position: absolute; /* Position the text container */
+    top: 50%; /* Position from the top edge of the viewport */
+    left: 50%; /* Position from the left edge of the viewport */
+    transform: translate(-50%, -50%); /* Center the container */
+    text-align: center; /* Center-align the text inside the container */
 }
 
 /* paragraph highlighter thing */
